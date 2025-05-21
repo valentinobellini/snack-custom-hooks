@@ -6,20 +6,22 @@
 // Quando toggle() viene chiamato, il valore passa da true → false e viceversa.
 // Esempio di utilizzo:
 
-import { useState, useCallback } from "react";
+// import { useState, useCallback } from "react";
 
-export default function useSwitch(initialValue = false) {
+// export default function useSwitch(initialValue = false) {
 
-    const [value, setValue] = useState(initialValue);
+//     const [value, setValue] = useState(initialValue);
 
-    console.log(value);
+//     console.log(value);
 
-    const toggle = useCallback(() => {
-        setValue(prev => !prev)
-    }, [])
+//     const toggle = () => {
+//         setValue(prev => !prev)
+//     }
 
-    return [value, toggle]
-}
+//     return [value, toggle]
+// }
+
+
 
 
 
